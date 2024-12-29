@@ -4236,3 +4236,62 @@ a.mg-profile-shortcut {
     padding-top: 10px;
     border-top: 1px solid #ddd;
 }
+
+
+/*custom classes */
+            /* Background Video Styling */
+            .background-video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                width: 100%;
+                z-index: -1; /* Places video behind the content */
+            }
+        
+            /* Slider Section Styling */
+            .mg-slider-section {
+                position: relative;
+                overflow: hidden;
+                height: 100vh;
+                z-index: 1; /* Full-screen height */
+            }
+        
+            /* Slide Styling */
+            .mg-slide {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+        
+            /* Add a semi-transparent overlay */
+            .background-video::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(14, 14, 14, 0.4); /* Semi-transparent black overlay */
+                z-index: -2; /* Places the overlay above the video */
+            }
+        
+            .mg-partner-slide-logo-gray img {
+                filter: grayscale(100%); /* Converts the image to black and white */
+                transition: filter 0.3s ease-in-out; /* Adds a smooth transition effect */
+            }
+        
+            /* Optional: Add hover effect to restore color */
+            .mg-partner-slide-logo-gray img:hover {
+                filter: grayscale(0%); /* Restores color on hover */
+            }
+
+            .mg-partner-slider{
+                display: flex;
+            }
