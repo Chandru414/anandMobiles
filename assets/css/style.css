@@ -4283,7 +4283,7 @@ a.mg-profile-shortcut {
             }
         
             .mg-partner-slide-logo-gray img {
-                filter: grayscale(100%); /* Converts the image to black and white */
+                filter: grayscale(0%); /* Converts the image to black and white */
                 transition: filter 0.3s ease-in-out; /* Adds a smooth transition effect */
             }
         
