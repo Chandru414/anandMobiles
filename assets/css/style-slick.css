@@ -774,6 +774,38 @@ button.btn-close.mg-pop-up-close-btn:focus, button.btn-close.mg-pop-up-close-btn
 .mg-partner-section-outer {
     padding: 20px 0 50px 0;
 }
+.mg-partner-slider.slick-initialized .slick-slide, .mg-carousel-brands.slick-initialized .slick-slide {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+.mg-partner-slider .slick-slide, .mg-carousel-brands .slick-slide {
+    float: none;
+}
+.mg-partner-slide-logo img {
+    max-width: 100%;
+    margin: 0 auto;
+    max-height: 60px;
+    object-fit: contain;
+    object-position: center center;
+    opacity: .8;
+}
+.mg-partner-slide-logo img:hover {
+    opacity: 1;
+}
+.mg-partner-slider .slick-prev::before, .mg-carousel-brands .slick-prev::before {
+    content: "\f053";
+}
+.mg-partner-slider .slick-prev::before, .mg-partner-slider .slick-next::before, .mg-carousel-brands .slick-prev::before, .mg-carousel .slick-next::before {
+    font-family: FontAwesome;
+    color: #000;
+}
+.mg-partner-slider .slick-next::before, .mg-carousel-brands .slick-next::before {
+    content: "\f054";
+}
+.mg-partner-section-outer {
+    padding: 20px 0 50px 0;
+}
 /*MG Partner Slider End Here*/
 /*MG Footer Start Here*/
 .mg-footer-outer {

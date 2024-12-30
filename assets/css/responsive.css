@@ -3083,6 +3083,16 @@
         width: 31px;
         line-height: 16px;
     }
+    .mg-custome-section .mg-carousel-brands button.next-arrow {
+        height: 31px;
+        width: 31px;
+        line-height: 16px;
+    }
+    .mg-custome-section .mg-carousel-brands button.prev-arrow {
+        height: 31px;
+        width: 31px;
+        line-height: 16px;
+    }
     /************************************/
     
     /*

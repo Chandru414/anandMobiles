@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MG WIREZ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="assets/libs/jquery-ui-1.13.2.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/fontawesome-free-6.2.1-web/css/all.min.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+        <link href="assets/libs/Magnific-Popup-master/dist/magnific-popup.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/mg-menu.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+
+        <script src="assets/js/jquery-3.6.1.min.js"></script>
+        <script src="assets/libs/jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+        <script src="assets/js/jquery.ui.touch-punch.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/libs/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+        <script src="assets/libs/slick-1.8.1/slick/slick.min.js"></script>
+        <script src="assets/libs/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.validate.min.js"></script>
+        <style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {width:100%!important;height:400px!important;}</style>
+    </head>
+    <body>
+        <!--MG Header Start Here-->
+        <header>
+            <div class="mg-header-outer">
+                <div class="container">
+                    <div class="row gx-0 gx-md-2 align-items-center d-flex justify-content-between">
+                        <div class="col-md-3 col-lg-3 col-5">
+                            <div class="header-logo">
+                                <!-- <a class="mg-logo text-decoration-none" href="index.html">ANAND MOBILES</a> -->
+                                 <img src="assets/images/logo/logodark.png" style="max-width: 15rem;width: 15rem;">
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-6 col-2 order-3 order-md-0 d-flex d-md-block justify-content-end justify-content-md-start text-end">
+                            <div>
+                                <div class="mg-menu-overlay"></div>
+                                <nav class="mg-menu" id="menu">
+                                    <div class="menu-mobile-header">
+                                        <button type="button" class="menu-mobile-arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                                        <div class="menu-mobile-title"></div>
+                                        <button type="button" class="menu-mobile-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                    </div>
+                                    <ul class="menu-section mg-menu-outer">
+                                        <li class="menu-item-has-children">
+                                            <a class="active-menu-light" href="javascript:void(0);">HOME <i class="fa-solid fa-caret-down"></i></a>
+                                            <div class="mg-sub-menu-outer">
+                                                <div class="menu-subs">
+                                                    <ul>
+                                                        <li><a href="index.html">Home 1</a></li>
+                                                        <li class="sub-menu-active-light"><a href="home2.html">Home 2</a></li>
+                                                        <li><a href="home3.html">Home 3</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0);">PRODUCTS <i class="fa-solid fa-caret-down"></i></a>
+                                            <div class="mg-sub-menu-outer">
+                                                <div class="menu-subs">
+                                                    <ul>
+                                                        <li><a href="shop.html">SMART PHONES</a></li>
+                                                        <li><a href="shop.html">LAPTOPS</a></li>
+                                                        <li><a href="shop.html">TELEVISIONS</a></li>
+                                                        <li><a href="shop.html">ACCESSORIES</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="javascript:void(0);">SERVICES <i class="fa-solid fa-caret-down"></i></a>
+                                            <div class="mg-sub-menu-outer">
+                                                <div class="menu-subs">
+                                                    <ul>
+                                                        <li><a href="thank-you.html">Iphone Services</a></li>
+                                                        <li><a href="shop.html">Display Repairs</a></li>
+                                                        <li><a href="single-product.html">Laptop Repairs</a></li>
+                                                        <li><a href="cart.html">All Parts Replacement</a></li>
+                                                        <li><a href="checkout.html">Top/Back Glass Change</a></li>
+                                                       
+                                                        <li><a href="profile.html">Water Damage Repairs</a></li>
+                                                        <li><a href="my-orders.html">Charging Ports</a></li>
+                                                        <li><a href="wishlist.html">Mobile Speakers</a></li>
+                                                        <li><a href="blogs.html">Body Housing</a></li>
+                                                        <li><a href="single-blog.html">Custom Stickerings</a></li>
+                                                        <!-- <li><a href="about-us.html">About us</a></li>
+                                                        <li><a href="privacy-policy.html">Privacy policy</a></li>
+                                                        <li><a href="my-account.html">My account</a></li>
+                                                        <li><a href="login.html">Login/Register</a></li>
+                                                        <li><a href="faq.html">FAQs</a></li>
+                                                        <li><a href="404.html">404 Page</a></li> -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- <li class="menu-item"><a href="blogs.html">BLOG</a></li> -->
+                                        <li class="menu-item"><a href="contact-us.html">CONTACT</a></li>
+                                    </ul>
+                                </nav>
+                                <div>
+                                    <button type="button" class="menu-mobile-toggle mg-burger-menu-icon">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-4 col-lg-3 col-5 text-end">
+                            <div class="row">
+                                <div class="col-12 col-lg-12 col-md-12">
+                                    <div class="header-icons-outer">
+                                        <ul>
+                                            <li class="mg-login-box">
+                                                <div class="mg-login">
+                                                    <a class="mg-login-link" href="">LOGIN</a> <span>/</span>
+                                                    <a class="" href="">SIGNUP</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/icons/heart.svg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/icons/Icon-feather-shopping-bag.svg" alt=""><span class="mg-header-icon-counter">2</span>
+                                                </a>
+                                            </li>
+                                            <li class="mg-profile-icon">
+                                                <a href="#">
+                                                    <img src="assets/images/icons/profile-icon.svg" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--MG Header End Here-->
+        <!-- Search Pop Up -->
+        <div class="modal gx-0 fade mg-search-pop-up" id="search-popup" tabindex="-1" aria-labelledby="search-popup" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen" >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close mg-pop-up-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                            <span class="mg-spcb-bar-one"></span>
+                            <span class="mg-spcb-bar-two"></span>
+                        </button>
+                    </div>
+                    <div class="modal-body align-items-center d-flex">
+                        <div class="mg-search-pop-form-outer w-100">
+                            <div class="search-heading"></div>
+                            <form class="">
+                                <div class="mg-search-bar-dropdwon">
+                                    <select class="form-select mg-font-style">
+                                        <option selected>Category</option>
+                                        <option value="Laptop">Laptop</option>
+                                        <option value="Mobile">Mobile</option>
+                                        <option value="Camera">Camera</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <input class="form-control" type="text" placeholder="What do you need..." aria-label="Search">
+                                <button class="btn" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search Pop Up End Here -->
+        <!--page header start here-->
+        <div class="mg-page-header-section8 mg-page-header-style">
+            <div class="mg-page-header-inner">
+                <div class="container">
+                    <div class="mg-page-header-text">
+                        <div class="mg-page-header-heading">
+                            <h3>Contact</h3>
+                        </div>
+                        <div class="mg-breadcrumb">
+                            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a class="text-decoration-none" href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item active">Contact</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--page header end here-->
+        <!--contact us section start here-->
+        <div class="mg-contact-us-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <div class="mg-contact-information-section">
+                            <div class="mg-contact-info-inner">
+                                <div class="mg-contact-info-heading">
+                                    <h5>Contact Information</h5>
+                                </div>
+                                <div class="mg-contact-info-content">
+                                    <h5>Address</h5>
+                                    <div><span>38, 1st Main Rd, 4th Block, Sharada Colony, West of Chord Road 3rd Stage, Basaveshwar Nagar, Bengaluru, Karnataka 560079</span></div>
+                                </div>
+                                <div class="mg-contact-info-content">
+                                    <h5>Phone Number</h5>
+                                    <div><span>Mobile: +91 8553573108</span></div>
+                                    <!-- <div><span>Fax: +(1) 234 567 8900</span></div> -->
+                                </div>
+                                <div class="mg-contact-info-content">
+                                    <h5>Email Address</h5>
+                                    <div><a href=""><span>anandmobiles.info@gmail.com</span></a></div>
+                                    <!-- <div><a href=""><span>mgwirezstore@gmail.com</span></a></div> -->
+                                </div>
+                                <div class="mg-contact-info-content">
+                                    <div class="mg-social-link-section">
+                                        <div class="mg-social-heading me-2">
+                                            <span>Social Links</span>
+                                        </div>
+                                        <div class="mg-social-link">
+                                            <ul>
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <img src="assets/images/icons/fb.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/anand_mobiles_basaveshwarangr/profilecard/?igsh=MXMxd3lybjFrOGcxdg==">
+                                                        <img src="assets/images/icons/insta.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <img src="assets/images/icons/linkedin.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0);">
+                                                        <img src="assets/images/icons/linkedin.jpg" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <div class="mg-get-in-touch-form-section">
+                            <div class="mg-git-form-heading">
+                                <h5>Get in touch</h5>
+                                <div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                    </p>
+                                </div>
+                            </div>
+                            <form class="mg-contact-form" action="javascript:void(0);" method="post">
+                                <div class="mg-form-main">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="mg-form-input-field">
+                                                <input type="text" name="first_name" placeholder="First Name*">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="mg-form-input-field">
+                                                <input type="text" name="last_name" placeholder="Last Name*">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="mg-form-input-field">
+                                                <input type="text" name="email" placeholder="Email Address*">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <div class="mg-form-input-field">
+                                                <input type="text" name="phone_number" placeholder="Phone Number*">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="mg-form-textarea">
+                                                <textarea name="message" placeholder="Type message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mg-form-submit-btn">
+                                        <button type="submit" class="btn">SEND MESSAGE</button>
+                                    </div>
+                                </div>
+                            </form>
+							<div class="alert-msg" style="display:none;">
+								<div class="mt-2 alert alert-success alert-dismissible fade show" role="alert">
+								  Email sent successfully.
+								  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--contact us section end here-->
+        <!--map section start here-->
+        <div class="mg-google-map-section">
+            <div class="mg-gm-inner">
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.742680086452!2d77.5349882519361!3d12.9883031704411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d002b318a83%3A0x4e04a8418790bf33!2sAnand%20Mobiles!5e0!3m2!1sen!2sin!4v1735591903199!5m2!1sen!2sin"></iframe><a href="https://www.gachacute.com/">Gacha Cute</a></div></div>
+                
+            </div>
+        </div>
+        <!--map section end here-->
+        <!--footer section start here-->
+        <footer>
+            <div class="mg-footer-section">
+                <div class="container">
+                    <div class='mg-footer-section-inner'>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="mg-footer-bio">
+                                    <a class="mg-footer-logo" href="index.html">MG WIREZ.</a>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                                </div>
+                                <div class="mg-newsletter-outer">
+                                    <h6>Subscribe Our Newsletter</h6>
+                                    <span>Lorem Ipsum is simply dummy text</span>
+                                    <div class="mg-newsletter-inner">
+                                        <form class="d-flex mt-3">
+                                            <input class="form-control" type="search" placeholder="Email address" aria-label="search">
+                                            <button class="btn"><i class="fa-solid fa-angle-right"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="mg-footer-link">
+                                            <div class="mg-footer-link-heading">
+                                                <span>Safe Payment</span>
+                                            </div>
+                                            <ul class="list-group">
+                                                <li><a href="javascript:void(0);">In-Store Shop</a></li>
+                                                <li><a href="javascript:void(0);">Brands</a></li>
+                                                <li><a href="javascript:void(0);">Gift Cards</a></li>
+                                                <li><a href="javascript:void(0);">Careers</a></li>
+                                                <li><a href="about-us.html">About Us</a></li>
+                                                <li><a href="javascript:void(0);">Shipping</a></li>
+                                                <li><a href="javascript:void(0);">Return</a></li>
+                                                <li><a href="my-account.html">My Account</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mg-footer-link">
+                                            <div class="mg-footer-link-heading">
+                                                <span>Information</span>
+                                            </div>
+                                            <ul class="list-group">
+                                                <li><a href="javascript:void(0);">Live Chat</a></li>
+                                                <li><a href="javascript:void(0);">Product Guide</a></li>
+                                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                                <li><a href="javascript:void(0);">Delivery Information</a></li>
+                                                <li><a href="javascript:void(0);">Sales</a></li>
+                                                <li><a href="javascript:void(0);">Term and Conditions</a></li>
+                                                <li><a href="javascript:void(0);">Shopping policy</a></li>
+                                                <li><a href="javascript:void(0);">EMI Payment</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="mg-footer-link">
+                                            <div class="mg-footer-link-heading">
+                                                <span>Store</span>
+                                            </div>
+                                            <ul class="list-group">
+                                                <li><a href="javascript:void(0);">Affiliate</a></li>
+                                                <li><a href="javascript:void(0);">Bestseller</a></li>
+                                                <li><a href="javascript:void(0);">Discount</a></li>
+                                                <li><a href="javascript:void(0);">Latest Products</a></li>
+                                                <li><a href="javascript:void(0);">Sales</a></li>
+                                                <li><a href="javascript:void(0);">All Collection</a></li>
+                                                <li><a href="wishlist.html">Wishlist</a></li>
+                                                <li><a href="contact-us.html">Contact Us</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Copy right section start here-->
+                    <div class="mg-copy-right-section">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class="mg-copy-right-text">
+                                    <span>MADE WITH <i class="fa-solid fa-heart"></i> BY <a href="javascript:void(0)';">MG Technologies.</a></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-12">
+                                <div class='mg-payment-option-img'>
+                                    <img src="assets/images/gallery/download.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Copy right section end here-->
+                </div>
+            </div>
+        </footer>
+        <!--footer section end here-->
+        <!--Back To Top Button Start Here-->
+        <div id="back-top" style="display: none;">
+            <a class="text-decoration-none" title="Go to Top" href="#"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+        <!--Back To Top Button End Here-->
+        <script src="assets/js/mg-send-email.js"></script>
+        <script src="assets/js/mg-menu.js"></script>
+        <script src="assets/js/mg-common.js"></script>
+        <script src="assets/js/about-us.js"></script>
+    </body>
+</html>

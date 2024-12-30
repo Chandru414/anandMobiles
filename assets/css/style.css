@@ -818,6 +818,30 @@ a.mg-shop-btn:hover {
     width: 40px;
     line-height: 22px;
 }
+.mg-custome-section .mg-carousel-brands button.prev-arrow {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    z-index: 999;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 22px;
+}
+.mg-custome-section .mg-carousel-brands button.next-arrow {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    z-index: 999;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 22px;
+}
 .mg-mobile-icons .mg-mobile-search-icon img {
     width: 25px;
 }
